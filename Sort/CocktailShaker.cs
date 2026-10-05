@@ -2,6 +2,20 @@ public class CocktailShaker
 {
     public CocktailShaker() {}
     
+
+    public void Function(decimal n)
+    {
+        while(n > 1)
+        {
+            decimal temp = n;
+            n = Math.Floor(n/2);
+            for(int i = 0; i < temp; i++)
+            { 
+                Console.WriteLine("Step :", i + 1); 
+            }
+        }
+    }
+
     public int[] Sort(int[] numbers)
     {
         int left = 0;

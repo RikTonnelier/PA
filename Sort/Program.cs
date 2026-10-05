@@ -11,3 +11,4 @@ int countInsert = sort.Insertion(numbers);
 Console.WriteLine($"Bubble count: {countBubble}");
 Console.WriteLine($"Selection count: {countSelect}");
 Console.WriteLine($"Insertion count: {countInsert}");
+
